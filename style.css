@@ -4,11 +4,27 @@ h1{
     font-size: 40px;
     padding-top: 70px;
 }
+h2{
+    color: deeppink;
+    font-size: 50px;
+}
 h3{
     font-size: 30px;
 }
 h4{
+    font-size: 20px;
+}
+h5{
     font-size: 30px;
+    color: chartreuse;
+}
+h6{
+    font-size: 30px;
+    color: darkorange;
+}
+h7{
+    font-size: 30px;
+    color: forestgreen;
 }
 #name{
     background: linear-gradient(#34ebeb 0%,#eb98b1 100%);
@@ -29,7 +45,7 @@ body{
     padding-right:20px;
 }
 .link:hover{
-    background-color: darkred;
+    background-color: white;
     color: chartreuse;
     font-size: 20px;
 }
