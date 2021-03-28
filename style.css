@@ -3,6 +3,7 @@ h1{
     color:"mediumblue";
     font-size: 40px;
     padding-top: 70px;
+    text-shadow: 2px 2px gainsboro;
 }
 h2{
     color: deeppink;
@@ -26,9 +27,12 @@ h7{
     font-size: 30px;
     color: forestgreen;
 }
-#name{
-    background: linear-gradient(#34ebeb 0%,#eb98b1 100%);
-   height: 500px;
+h8{
+    font-size: 30px;
+    color: crimson;
+}
+.pot{
+    text-decoration: underline;
 }
 body{
     text-align: center;
@@ -49,3 +53,43 @@ body{
     color: chartreuse;
     font-size: 20px;
 }
+img:hover{
+    transform:scale(0.8);     
+    }
+#contact iframe{
+    width:100%; 
+}
+.author{
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #4a0cad;
+}
+#name{
+    background: linear-gradient(#1124f7 0%,#f711aa 100%);
+   height: 500px;
+}
+#inspiration{
+    background: linear-gradient(#f5791b 0%,#991c24 100%);
+     height: 1200px;
+}
+#contact{
+   background: linear-gradient(#f1f52f 0%,#f06f0c 100%); 
+     height: 700px;
+}
+#intro{
+    background: linear-gradient(#6dfc53 0%,#0e8f26 100%);
+     height: 700px;
+}
+#favs{
+   background: linear-gradient(#28b2ed 0%,#ed2870 100%); 
+     height: 700px;
+}
+#work{
+   background: linear-gradient(#461c99 0%,#991c24 100%);
+     height: 700px;
+}
+
+
+
+
+
